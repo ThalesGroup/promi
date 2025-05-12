@@ -1,0 +1,4 @@
+names:
+  0: robot
+path: .
+train: train.txt

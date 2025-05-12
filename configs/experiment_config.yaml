@@ -1,0 +1,40 @@
+# Training Configuration
+train_img_list_path: "../data/SUIM_robots_train/train.txt"
+train_img_dir: "../data/SUIM_robots_train/images/train"
+train_bbox_labels_dir: "../data/SUIM_robots_train/labels/train"
+
+# Test Configuration
+test_img_dir: "../data/SUIM_robots_test/images"
+test_gt_seg_labels_dir: "../data/SUIM_robots_test/seg_labels"
+
+# Experiment Parameters
+shots: 5
+seed: 2025
+device: "cuda"
+max_bg_proto_nbr: 2
+
+# Feature Extractor Configuration
+feature_extractor:
+  model:
+    library: 'facebookresearch/dinov2'
+    architecture: 'dinov2_vitb14'  # Allows easy switching between different model versions
+  
+  checkpoint_path: "/home/fchiaroni/codes/thales_gitlab/lifelonglearning/frugal-learning/weights/dinov2_vitb14_pretrain.pth"
+  
+  transforms:
+    resize:
+      height: 672
+      width: 672
+    
+    normalize:
+      mean: [0.485, 0.456, 0.406]
+      std: [0.229, 0.224, 0.225]
+
+# Output Directories
+experiments_dir: "../experiments"
+output_dir: "../experiments/results"
+
+# Visualization and Saving Options
+save_scores: true
+save_weights: true
+save_visu: true
