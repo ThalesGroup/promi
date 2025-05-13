@@ -1,6 +1,6 @@
 # Contributing
 
-The code is licensed under the MIT (see LICENSE for details).
+The code is licensed under the Thales Non Production License Agreement (see LICENSE for details).
 
 First of all, thanks for contributing!
 

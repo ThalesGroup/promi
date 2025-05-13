@@ -70,7 +70,9 @@ test_gt_seg_labels_dir: "../data/SUIM_robots_test/seg_labels"
 * Test labels are pixel-wise binary segmentation masks stored in .bmp format.
 
 **Pre-trained Feature Extractor**
-```yaml checkpoint_path: "../../weights/dinov2_vitb14_pretrain.pth"``` 
+```yaml 
+checkpoint_path: "../../weights/dinov2_vitb14_pretrain.pth"
+``` 
 * DINOv2 VIT-B/14 backbone weights can be downloaded from: [dinov2_vitb14_pretrain.pth](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth).
 
 #### Running ProMi on a Data Sample

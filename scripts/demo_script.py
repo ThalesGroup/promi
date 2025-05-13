@@ -1,6 +1,3 @@
-# TO DO
-# Write the readme
-
 import os
 import sys
 import argparse
