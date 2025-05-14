@@ -38,6 +38,7 @@ Ensure you have the following dependencies installed:
 * **pillow** 11.1.0
 * **torch** 2.7.0
 * **torchvision** 0.22.0
+* **xformers** 0.0.30
 * **CUDA** 11.8 (for GPU support)
 
 ### Installation
