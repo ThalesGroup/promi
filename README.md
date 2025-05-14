@@ -8,11 +8,10 @@
 
 If you find this code useful for your research, please cite our paper (published at ICRA 2025):
 ```
-@inproceedings{chiaroni2023parametric,
+@inproceedings{chiaroni2025promi,
   title={ProMi: An Efficient Prototype-Mixture Baseline for Few-Shot Segmentation with Bounding-Box Annotations},
   author={Chiaroni, Florent and Ayub, Ali and Ahmad, Ola},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={xxxx--xxxx},
   year={2025}
 }
 ```
@@ -34,13 +33,12 @@ Ensure you have the following dependencies installed:
 * **Python** 3.9.17
 * **pyyaml** 6.0.2
 * **numpy** 1.26.4
-* **scikit-learn** 0.24.1
+* **scikit-learn** 1.0.1
 * **opencv-python** 4.10.0.84
 * **pillow** 11.1.0
-* **torch** 2.0.0
-* **torchvision** 0.15.0
-* **xFormers** 0.0.18
-* **CUDA** 11.7 (for GPU support)
+* **torch** 2.7.0
+* **torchvision** 0.22.0
+* **CUDA** 11.8 (for GPU support)
 
 ### Installation
 To install all package dependencies, run:
