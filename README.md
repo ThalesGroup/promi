@@ -33,7 +33,7 @@ Ensure you have the following dependencies installed:
 * **Python** 3.9.17
 * **pyyaml** 6.0.2
 * **numpy** 1.26.4
-* **scikit-learn** 1.0.1
+* **scikit-learn** 1.5.0
 * **opencv-python** 4.10.0.84
 * **pillow** 11.1.0
 * **torch** 2.7.0
