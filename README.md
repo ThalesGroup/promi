@@ -4,14 +4,14 @@
 ## Updates
 
 ## Paper
-### **ProMi: An Efficient Prototype-Mixture Baseline for Few-Shot Segmentation with Bounding-Box Annotations**
+### [**ProMi: An Efficient Prototype-Mixture Baseline for Few-Shot Segmentation with Bounding-Box Annotations**](https://arxiv.org/pdf/2505.12547)
 
-If you find this code useful for your research, please cite our paper (published at ICRA 2025):
+If you find this code useful for your research, please cite our [paper](https://arxiv.org/pdf/2505.12547) (published at ICRA 2025):
 ```
-@inproceedings{chiaroni2025promi,
+@article{chiaroni2025promi,
   title={ProMi: An Efficient Prototype-Mixture Baseline for Few-Shot Segmentation with Bounding-Box Annotations},
   author={Chiaroni, Florent and Ayub, Ali and Ahmad, Ola},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  journal={arXiv preprint arXiv:2505.12547},
   year={2025}
 }
 ```
@@ -24,6 +24,13 @@ If you find this code useful for your research, please cite our paper (published
 <p align="center">
   <img src="figures/Graphical_Abstract_ProMi.jpg" width="1000">
 </p>
+
+## Presentation Materials
+
+We presented **ProMi** at the **IEEE International Conference on Robotics and Automation (ICRA 2025)**. You can find the corresponding materials below:
+
+- [Oral Presentation Slides (PDF)](presentation/chiaroni_promi_icra2025_oral.pdf)
+- [Poster (PDF)](presentation/chiaroni_promi_icra2025_poster.pdf)
 
 ## Get started
 
